@@ -124,6 +124,13 @@ class SiteController extends Controller
         return $this->render('about');
     }
     public function actionHello (){ /*создадим функцию и опишем телофункции, что бы увидеть выведеный тест: http://hoolicompos/web/index.php?r=site/hello*/
-        return 'HelloWorld';
+        return $this->render('hello');
+        /*return 'HelloWorld';*/
+
+    }
+    public function actionTest (){
+        return $this->render('test');
+        /*return 'Test';*/
+
     }
 }
