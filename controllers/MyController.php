@@ -14,6 +14,8 @@ use yii\web\Controller;
 class MyController extends Controller
 {
     public function actionIndex(){
-        return 'Index';
+        $hi = 'helloworld';
+        $names = ['Ivanov', 'Petrov', 'Sidorov'];
+        return $this->render('index', ['hello' => $names]); /*используем параметр render и передаем её в шаблон массивом, ключ "hello' второй параметр $hi*/
     }
 }
