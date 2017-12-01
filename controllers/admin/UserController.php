@@ -9,7 +9,12 @@
 namespace app\controllers\admin;
 
 
-class UserController
-{
+use yii\web\Controller;
 
+class UserController extends Controller
+{
+    public function actionIndex()
+    {
+        return $this->render(\index::class);
+    }
 }

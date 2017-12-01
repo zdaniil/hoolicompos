@@ -5,9 +5,9 @@
  * Date: 26.11.2017
  * Time: 20:24
  */
-$a=20;
-$b=50;
-echo $a+$b;
+$a = 20;
+$b = 50;
+echo $a + $b;
 ?>
 <!doctype html>
 <html lang="en">

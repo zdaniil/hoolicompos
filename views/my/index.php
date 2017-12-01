@@ -9,6 +9,13 @@
 </head>
 <body>
 <h2>Index</h2>
-<?= $hello; ?>
+<?= $hi; ?> <br>
+
+<?php
+foreach ($names as $name) {
+    echo $name . '<br>';
+}
+
+?> <!--просто выводим массив*/-->
 </body>
 </html>
